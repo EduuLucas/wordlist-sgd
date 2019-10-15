@@ -5,7 +5,7 @@ let palavras = [];
 let cont = 0;
 
 function criaPalavras() {
-	while (cont <= 10000) {
+	while (cont <= 1000000000) {
 		let palavra = "" + pegaConsoante() + "" + pegaVogal() + "" + pegaConsoante() + "" + pegaVogal() + "" + pegaConsoante() + "" + pegaVogal() + "" + pegaNumero() + "" + pegaNumero() + "";
 
 		if (!palavras.includes(palavra)) {
@@ -35,7 +35,7 @@ function pegaNumero() {
 
 async function inicia() {
     await criaPalavras();
-	console.log(palavras);
+	console.log(palavras.length);
 }
 
 inicia();

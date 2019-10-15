@@ -1,0 +1,1 @@
+o código em sí é bem simples, ele cria a palavra chamando as funções pegaConsoante, pegaVogal e pegaNumero, que retornam consoantes aleatórias, vogais a aleatórias e numeros aleatórios, respectivamente, e concatena. Logo depois ele verifica se essa palavra ja existe no array, se existir ele cria outra, se nao ele insere no array e cria outra, e assim vai até 10000 palavras. 
